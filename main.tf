@@ -39,7 +39,7 @@ module "VPC" {
   vpc_cidr                            = var.vpc_cidr
   enable_dns_support                  = var.enable_dns_support
   enable_dns_hostnames                = var.enable_dns_hostnames
-  enable_classiclink_dns_support = var.enable_classiclink_dns_support
+  enable_classiclink_dns_support      = var.enable_classiclink_dns_support
   enable_classiclink                  = var.enable_classiclink
   preferred_number_of_public_subnets  = var.preferred_number_of_public_subnets
   preferred_number_of_private_subnets = var.preferred_number_of_private_subnets
